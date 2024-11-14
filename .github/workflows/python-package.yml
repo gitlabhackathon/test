@@ -39,4 +39,5 @@ jobs:
 
     - name: Run tests with pytest
       run: |
+        export PYTHONPATH=$(pwd)  # Add current directory to PYTHONPATH
         pytest tests --maxfail=1 --disable-warnings -q
