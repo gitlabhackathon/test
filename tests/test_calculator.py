@@ -1,7 +1,8 @@
 # test_calculator.py
 
 import unittest
-from calculator import Calculator
+from calculator.calculator import Calculator  # Importing from the calculator package
+
 
 class TestCalculator(unittest.TestCase):
 
